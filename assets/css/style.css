@@ -10,3 +10,14 @@ body {
     font-weight: 400;
     color: black;
 }
+
+/* headings */
+
+h1, h2 {
+    text-decoration: none;
+    font-family: Permanent Marker,sans-serif;
+    letter-spacing: 2px;
+    color: black;
+    
+
+}
