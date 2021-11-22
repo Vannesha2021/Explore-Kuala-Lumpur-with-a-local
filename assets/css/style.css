@@ -103,4 +103,24 @@ nav {
         }
 
         }
+
+    /*For medium screen sizes from 950px wide and down*/
+    @media screen and (min-width: 950px) {
+        #bar {
+            padding-top: 100px;
+            padding-left: 3%;
+            padding-right: 6%;
+            overflow: hidden; 
+            float: left;      
+        }
+
+        #activities>p {
+            font-size: 30px;
+            padding-right: 1%;
+            padding-left: 15%;
+            padding-top: 20%;
+            padding-bottom: 22%;
+        }
+
+        }
     }
