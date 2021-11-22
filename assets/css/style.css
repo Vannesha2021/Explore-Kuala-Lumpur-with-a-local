@@ -60,33 +60,46 @@ nav {
 #header-image {
     overflow: hidden;
     width: 100%;
+    display: block;
 }
 
 #bar {
     max-width: 50%;
     height: 500px;
-    padding-top: 100px;
-    padding-left: 10%; 
+    padding-top: 50px;
+    padding-left: 80%; 
     padding-right: 5%;
     overflow: hidden; 
     float: left;
-    clear: both
+    clear: both;
+    display: block;
    
 }
 
-#activities>p {
+#bar-heading {
     font-size: 35px;
     padding-left: 50%;
     padding-right: 10%;
     padding-top: 13%;
-    padding-bottom: 22%;
+    display: block;
+   
 }
+
+#satay {
+   padding-left: 64%; 
+   padding-bottom: 500%;
+   padding-right: 5%;
+   overflow: hidden; 
+   clear: both;
+   display: block;
+}
+
+
 
 /* Media queries */
     /* for small screen sizes from 800px wide and down */
     @media screen and (max-width: 800px) {
         #bar {
-          
             padding-top: 100px;
             padding-left: 3%;
             padding-right: 17%;
@@ -94,7 +107,7 @@ nav {
             float: left;      
         }
 
-        #activities>p {
+        #bar-heading {
             font-size: 25px;
             padding-right: 3%;
             padding-left: -1%;
@@ -114,7 +127,7 @@ nav {
             float: left;      
         }
 
-        #activities>p {
+        #bar-heading {
             font-size: 30px;
             padding-right: 1%;
             padding-left: 15%;
@@ -124,3 +137,23 @@ nav {
 
         }
     }
+        /*For larger to medium screens size from 1200px wide and down*/
+        @media screen and (max-width: 1200px) {
+            #bar {
+              
+                padding-top: 100px;
+                padding-left: 3%;
+                padding-right: 17%;
+                overflow: hidden; 
+                float: left;      
+            }
+    
+            #bar-heading {
+                font-size: 25px;
+                padding-right: 3%;
+                padding-left: -1%;
+                padding-top: 10%;
+                padding-bottom: 20%;
+            }
+    
+            }
