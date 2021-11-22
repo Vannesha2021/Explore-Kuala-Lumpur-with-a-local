@@ -22,7 +22,12 @@ h1, h2 {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
-   
-    
-
 }
+
+/* Media queries */
+    /* for small screen sizes from 800px wide and down */
+    @media screen and (max-width: 800px) {
+         {
+
+        }
+    }
