@@ -64,96 +64,104 @@ nav {
 }
 
 #bar {
-    max-width: 50%;
     height: 500px;
-    padding-top: 50px;
-    padding-left: 80%; 
-    padding-right: 5%;
-    overflow: hidden; 
-    float: left;
-    clear: both;
     display: block;
-   
+    padding-top: 5%;
+    padding-left: 10%;
+    overflow: hidden;  
+    text-align: left;
+    object-fit: cover;
 }
 
-#bar-heading {
+.bar-heading {
     font-size: 35px;
-    padding-left: 50%;
+    overflow: hidden; 
+    text-align: left;
+    position: absolute;
     padding-right: 10%;
-    padding-top: 13%;
+    padding-left: 5%;
+    padding-top: 5%;
+    object-fit: cover;
+    background: url(images/background.jpg) no-repeat center center;
+}
+
+.background-bar {
+    padding-top: 35%;
+    padding-bottom: -20%;
+    height: 50%;
+    opacity: 35%;
+    position: absolute;
+    left: 55%;
+    top: 150%;
+}
+
+#food {
+    height: 500px;
     display: block;
-   
-}
-
-#satay {
-   padding-left: 64%; 
-   padding-bottom: 500%;
-   padding-right: 5%;
-   overflow: hidden; 
-   clear: both;
-   display: block;
+    padding-top: 5%;
+    padding-left: 10%;
+    overflow: hidden;  
+    text-align: left;
+    object-fit: cover;
 }
 
 
+.food-heading {
+    font-size: 35px;
+    overflow: hidden; 
+    text-align: left;
+    position: absolute;
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
+    object-fit: cover;
+}
 
-/* Media queries */
-    /* for small screen sizes from 800px wide and down */
-    @media screen and (max-width: 800px) {
-        #bar {
-            padding-top: 100px;
-            padding-left: 3%;
-            padding-right: 17%;
-            overflow: hidden; 
-            float: left;      
-        }
+.background-food {
+    padding-top: 35%;
+    padding-bottom: -20%;
+    height: 50%;
+    opacity: 35%;
+    position: absolute;
+    left: 55%;
+    top: 230%;
+}
 
-        #bar-heading {
-            font-size: 25px;
-            padding-right: 3%;
-            padding-left: -1%;
-            padding-top: 20%;
-            padding-bottom: 22%;
-        }
+#nature {
+    height: 500px;
+    display: block;
+    padding-top: 5%;
+    padding-left: 10%;
+    overflow: hidden;  
+    text-align: left;
+    object-fit: cover;
+}
 
-        }
+.nature-heading {
+    font-size: 35px;
+    overflow: hidden; 
+    text-align: left;
+    position: absolute;
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
+    object-fit: cover;
+}
 
-    /*For medium screen sizes from 950px wide and down*/
-    @media screen and (min-width: 950px) {
-        #bar {
-            padding-top: 100px;
-            padding-left: 3%;
-            padding-right: 6%;
-            overflow: hidden; 
-            float: left;      
-        }
+.background-nature {
+    padding-top: 35%;
+    padding-bottom: -20%;
+    height: 50%;
+    opacity: 35%;
+    position: absolute;
+    left: 55%;
+    top: 315%;
+}
 
-        #bar-heading {
-            font-size: 30px;
-            padding-right: 1%;
-            padding-left: 15%;
-            padding-top: 20%;
-            padding-bottom: 22%;
-        }
 
-        }
-    }
-        /*For larger to medium screens size from 1200px wide and down*/
-        @media screen and (max-width: 1200px) {
-            #bar {
-              
-                padding-top: 100px;
-                padding-left: 3%;
-                padding-right: 17%;
-                overflow: hidden; 
-                float: left;      
-            }
-    
-            #bar-heading {
-                font-size: 25px;
-                padding-right: 3%;
-                padding-left: -1%;
-                padding-top: 10%;
-                padding-bottom: 20%;
-            }
-    
-            }
+
+
+
+
+
+
