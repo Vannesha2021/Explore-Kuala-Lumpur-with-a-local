@@ -157,6 +157,7 @@ nav {
     left: 55%;
     top: 315%;
 }
+
 #responsive-map {
     padding-top: 1%;
     position : relative;
@@ -265,13 +266,38 @@ nav {
   
   .br:after {
     right: -10px;
-    top: -20px;
+    top: -1px;
   }
   
   pre {
     background: #edeff5;
     padding: 20px;
   }
+
+  footer {
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    height: -1%;
+  }
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    text-align: center;
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    padding-bottom: 4%;
+    color: black;
+}
+
 
 
 
