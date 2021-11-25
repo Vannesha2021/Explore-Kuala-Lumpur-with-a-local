@@ -308,7 +308,7 @@ pre {
 
 /* Experience Section */
 h3 {
-  font-size: 200%;
+  font-size: 230%;
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 45%;
@@ -316,6 +316,17 @@ h3 {
   border: solid 6px #f5a613;
   border-style: dotted;
 }
+
+.description {
+  color:purple;
+  font-size: 230%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+
 .container2 {
   display: flex;
   width: 100%;
