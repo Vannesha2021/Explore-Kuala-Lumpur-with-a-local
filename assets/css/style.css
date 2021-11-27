@@ -367,7 +367,7 @@ h3 {
   height: 100%;
 }
  
-/* Sign up page */
+/* Bookings page */
 
 input[type=text], select, textarea{
   width: 100%;
@@ -430,7 +430,7 @@ input[type=submit] {
         opacity: 0;
       }
 
- /* sign up */
+ /* Bookings */
       .col-25, .col-75, input[type=submit] {
           width: 100%;
           margin-top: 0;
