@@ -53,7 +53,10 @@ nav {
   position: relative;
   outline: none;
   background-color: transparent;
+}
 
+#midsection {
+  background-image: linear-gradient(to right,#c6ffdd,#fbd786,  #f7797d); 
 }
 
 /* header image */
@@ -83,13 +86,6 @@ nav {
     padding-left: 5%;
     padding-top: 5%;
     object-fit: cover;
-    background: url(images/background.jpg) no-repeat center center;
-}
-
-.background-bar {
-  padding-left: 10%;
-  opacity: 35%;
-  text-align: center;
 }
 
 #food {
@@ -114,17 +110,6 @@ nav {
     object-fit: cover;
 }
 
-.background-food {
-   display: block;
-    padding-top: 35%;
-    padding-bottom: -20%;
-    height: 50%;
-    opacity: 35%;
-    position: absolute;
-    left: 55%;
-    top: 230%;
-}
-
 #nature {
     height: 500px;
     display: block;
@@ -144,17 +129,6 @@ nav {
     padding-left: 5%;
     padding-top: 5%;
     object-fit: cover;
-}
-
-.background-nature {
-    display: block;
-    padding-top: 35%;
-    padding-bottom: -20%;
-    height: 50%;
-    opacity: 35%;
-    position: absolute;
-    left: 55%;
-    top: 315%;
 }
 
 .map-responsive {
