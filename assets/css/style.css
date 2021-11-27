@@ -368,15 +368,19 @@ h3 {
 }
  
 /* Bookings page */
+input[type=date] {
+  resize: none;
+}
 
-input[type=text], select, textarea{
+input[type=text], input[type=date], select, textarea{
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
   box-sizing: border-box;
-  resize: vertical;
 }
+
+
 
 label {
   padding: 12px 12px 12px 0px;
@@ -418,6 +422,8 @@ input[type=submit] {
   display: table;
   clear: both;
 }
+
+
 
 /* Media queries */
   /* for small screen sizes from 800px wide and down */
