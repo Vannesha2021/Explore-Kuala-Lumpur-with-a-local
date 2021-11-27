@@ -403,27 +403,30 @@ input[type=submit] {
   /* for small screen sizes from 800px wide and down */
   @media screen and (max-width: 800px) {
       .bar-heading,.food-heading,.nature-heading  {
-        font-size: 115%;
+        font-size: 450%;
       }
-
-      .background-bar,.background-food,.background-nature {
-        opacity: 0;
       }
-
+      
+      
  /* Bookings */
       .col-25, .col-75, input[type=submit] {
           width: 100%;
           margin-top: 0;
       }
+    
 
 
   /*For larger to medium screens size from 1200px wide and down*/
   @media screen and (max-width: 1200px) {
-    .bar-heading {
-      font-size: 10%;
-      color: blue;
-       .background-bar,.background-food,.background-nature {
-        opacity: 0;
+    .bar-heading,.food-heading,.nature-heading  {
+      font-size: 180%;
+      }
+    }
+
+    /*For larger to medium screens size from 950px wide and down*/
+  @media screen and (max-width: 950px) {
+    .bar-heading,.food-heading,.nature-heading  {
+      font-size: 120%;
       }
     }
   
