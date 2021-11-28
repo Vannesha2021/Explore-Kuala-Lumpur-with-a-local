@@ -61,10 +61,14 @@ nav {
 
 /* header image */
 
-#header-image {
+.image1 {
     overflow: hidden;
     width: 100%;
     display: block;
+}
+
+.image2 {
+  display:none;
 }
 
 #bar {
@@ -403,6 +407,14 @@ input[type=submit] {
 /* Media queries */
   /* for small screen sizes from 800px wide and down */
   @media screen and (max-width: 800px) {
+    .image1 {
+      display: none;
+    }
+
+    .image2 {
+      display: block;
+      width: 100%;
+    }
       .bar-heading,.food-heading,.nature-heading  {
         font-size: 10px;
       }
@@ -416,15 +428,7 @@ input[type=submit] {
       }
 
       #menu a:hover {
-        text-decoration: none;
-        border: 2px solid black;
-        color:black;
-        padding: 1px 1px;
-        font-size: 30px;
-        letter-spacing: 1px;
-        position: relative;
-        outline: none;
-        background-color: transparent;
+      none;
       }
 
       #bar {
@@ -435,14 +439,14 @@ input[type=submit] {
 
       .bar-heading {
         padding-top: 5%;
-        padding-bottom: 50%;
+        padding-bottom: 30%;
       }
 
       #food {
         max-width: 100%;
         height: auto;
         padding-left: 0%;
-        padding-top: 30%;
+        padding-top: 40%;
       }
 
       .food-heading {
@@ -454,7 +458,7 @@ input[type=submit] {
         max-width: 100%;
         height: auto;
         padding-left: 0%;
-        padding-top: 30%;
+        padding-top: 40%;
         padding-bottom: 35%;
       }
 
