@@ -43,6 +43,8 @@ nav {
     text-decoration: inherit; /* no underline */
 }
 
+
+@media screen and (min-width: 950px) {
 #menu a:hover {
   text-decoration: none;
   border: 4px solid black;
@@ -53,6 +55,7 @@ nav {
   position: relative;
   outline: none;
   background-color: transparent;
+}
 }
 
 #midsection {
@@ -425,10 +428,6 @@ input[type=submit] {
 
       nav {
         font-size: 20px;
-      }
-
-      #menu a:hover {
-      none;
       }
 
       #bar {
