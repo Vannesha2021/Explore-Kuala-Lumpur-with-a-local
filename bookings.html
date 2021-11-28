@@ -29,18 +29,21 @@
             <li>
                 <a href="bookings.html" class="active">Bookings</a>
             </li>
+            <li>
+              <a href="thankyou.html" class="active"></a>
+           </li>
 
         </ul>
     </nav>
     <section>
     <div class="container3">
-        <form action="index.html">
+        <form action="thankyou.html">
           <div class="row">
             <div class="col-25">
               <label for="fname">First Name</label>
             </div>
             <div class="col-75">
-              <input type="text" id="fname" name="firstname" placeholder="Your name">
+              <input type="text" id="fname" name="firstname" placeholder="Your name" required>
             </div>
           </div>
           <div class="row">
@@ -48,7 +51,7 @@
               <label for="lname">Last Name</label>
             </div>
             <div class="col-75">
-              <input type="text" id="lname" name="lastname" placeholder="Your last name">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
             </div>
           </div>
           <div class="row">
@@ -56,7 +59,7 @@
               <label for="email">Email Address</label>
             </div>
             <div class="col-75">
-              <input type="text" id="email" name="emailaddress" placeholder="Email Address">
+              <input type="text" id="email" name="emailaddress" placeholder="Email Address" required>
             </div>
           </div>
           <div class="row">
@@ -76,14 +79,14 @@
               <label for="lname">Booking Date</label>
             </div>
             <div class="col-75">
-              <input type="date" resize="none" id="lname" name="lastname" placeholder="Your last name">
+              <input type="date" resize="none" id="lname" name="lastname" placeholder="Your last name" required>
             </div>
           <div class="row">
             <div class="col-25">
               <label for="notes">Additional Notes</label>
             </div>
             <div class="col-75">
-              <textarea id="notes" name="notes" placeholder="What do we need to know before your visit?" style="height:200px"></textarea>
+              <textarea id="notes" name="notes" placeholder="What do we need to know before your visit?"  style="height:200px" required></textarea>
             </div>
           </div>
           <br>
