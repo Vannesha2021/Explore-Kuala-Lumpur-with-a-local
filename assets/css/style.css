@@ -471,9 +471,9 @@ input[type=submit] {
 
   /* Experience */
       h3 {
-        font-size: 20px;
-        padding-left: 45%;
-        padding-right: 30%;
+        font-size: 18px;
+        padding-left: 40%;
+        padding-right: 25%;
       }
 
       .description {
@@ -482,8 +482,8 @@ input[type=submit] {
         background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
       }
 
-      .box {
-        font-size: 10px;
+      .box > span {
+        font-size: 13px;
       }
       
  /* Bookings */
