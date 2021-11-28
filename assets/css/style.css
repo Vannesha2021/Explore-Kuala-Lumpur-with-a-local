@@ -458,30 +458,30 @@ input[type=submit] {
         padding-bottom: 35%;
       }
 
-      .map-heading h2 {
+      .map-heading > h2 {
         padding-top: 5%;
-        color: blue
       }
 
       .container {
         padding-top: 0%;
       }
 
-
-
-   
-
-
-
-
-
-
-
-    
-
-
+  /* Experience */
+      h3 {
+        font-size: 20px;
+        padding-left: 45%;
+        padding-right: 30%;
       }
-      
+
+      .description {
+        font-size: 15px;
+        color: white;
+        background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+      }
+
+      .box {
+        font-size: 10px;
+      }
       
  /* Bookings */
       .col-25, .col-75, input[type=submit] {
