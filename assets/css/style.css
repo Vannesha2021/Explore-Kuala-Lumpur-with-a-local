@@ -75,6 +75,7 @@ nav {
     overflow: hidden;  
     text-align: left;
     object-fit: cover;
+    
 }
 
 .bar-heading {
@@ -403,8 +404,82 @@ input[type=submit] {
   /* for small screen sizes from 800px wide and down */
   @media screen and (max-width: 800px) {
       .bar-heading,.food-heading,.nature-heading  {
-        font-size: 450%;
+        font-size: 10px;
       }
+
+      h1, h2 {
+        font-size: 30px;
+      }
+
+      nav {
+        font-size: 20px;
+      }
+
+      #menu a:hover {
+        text-decoration: none;
+        border: 2px solid black;
+        color:black;
+        padding: 1px 1px;
+        font-size: 30px;
+        letter-spacing: 1px;
+        position: relative;
+        outline: none;
+        background-color: transparent;
+      }
+
+      #bar {
+        max-width: 100%;
+        height: auto;
+        padding-left: 0%;
+      }
+
+      .bar-heading {
+        padding-top: 5%;
+        padding-bottom: 50%;
+      }
+
+      #food {
+        max-width: 100%;
+        height: auto;
+        padding-left: 0%;
+        padding-top: 30%;
+      }
+
+      .food-heading {
+        padding-top: 5%;
+        padding-bottom: 60%;
+      }
+
+      #nature {
+        max-width: 100%;
+        height: auto;
+        padding-left: 0%;
+        padding-top: 30%;
+        padding-bottom: 35%;
+      }
+
+      .map-heading h2 {
+        padding-top: 5%;
+        color: blue
+      }
+
+      .container {
+        padding-top: 0%;
+      }
+
+
+
+   
+
+
+
+
+
+
+
+    
+
+
       }
       
       
