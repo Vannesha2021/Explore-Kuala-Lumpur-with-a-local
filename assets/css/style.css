@@ -461,7 +461,7 @@ input[type=submit] {
         padding-bottom: 35%;
       }
 
-      .map-heading > h2 {
+      #map-heading > h2 {
         padding-top: 5%;
       }
 
