@@ -17,11 +17,11 @@ Aims to connect visitors with aunthetic genuine expriences when visiting Malaysi
 
 * This project began with generating the idea of the title of the website. Once the idea was conceived, I then proceded to create the wireframes to assist the development of the website. The links to the wireframes are provided below :
 
-![Responsive Screenshot Mockup](assets/css/readme-images/Homepage.png)
+![Responsive Screenshot Mockup](assets/css/readme-images/homepage.png)
 
 ![Responsive Screenshot Mockup](/assets/css/expe.png)
 
-![Responsive Screenshot Mockup](assets/css/readme-images/Bookings.png)
+![Responsive Screenshot Mockup](assets/css/readme-images/bookings.png)
 
 
 # User Experience
