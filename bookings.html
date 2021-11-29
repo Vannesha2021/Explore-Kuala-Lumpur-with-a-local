@@ -1,125 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kuala Lumpur city tour conducted by a local guide">
-    <meta name="keywords" content="city tour, kuala lumpur, bookings, tours, local guide">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <title>Explore Kuala Lumpur with a local</title>
-</head>
-<body>
-    <header>
-        <h1>Explore Kuala Lumpur with a local</h1>
-    </header>
-
-    <section>
-        <nav id="nav">
-        <ul id="menu">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Kuala Lumpur city tour conducted by a local guide">
+      <meta name="keywords" content="city tour, kuala lumpur, bookings, tours, local guide">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Explore Kuala Lumpur with a local</title>
+   </head>
+   <body>
+      <header>
+         <h1>Explore Kuala Lumpur with a local</h1>
+      </header>
+      <section>
+      <nav id="nav">
+         <ul id="menu">
             <li>
-                <a href="index.html">Home</a>
-              
+               <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="experience.html">Experience</a>
-
+               <a href="experience.html">Experience</a>
             </li>
             <li>
-                <a href="bookings.html" class="active">Bookings</a>
+               <a href="bookings.html" class="active">Bookings</a>
             </li>
             <li>
-              <a href="thankyou.html" class="active"></a>
-           </li>
-
-        </ul>
-    </nav>
-    <section>
-    <div class="container3">
-        <form action="thankyou.html">
-          <div class="row">
-            <div class="col-25">
-              <label for="fname">First Name</label>
+               <a href="thankyou.html" class="active"></a>
+            </li>
+         </ul>
+      </nav>
+      <section>
+         <div class="container3">
+         <form action="thankyou.html">
+            <div class="row">
+               <div class="col-25">
+                  <label for="fname">First Name</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name" required>
+               </div>
             </div>
-            <div class="col-75">
-              <input type="text" id="fname" name="firstname" placeholder="Your name" required>
+            <div class="row">
+               <div class="col-25">
+                  <label for="lname">Last Name</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Last Name</label>
+            <div class="row">
+               <div class="col-25">
+                  <label for="email">Email Address</label>
+               </div>
+               <div class="col-75">
+                  <input type="text" id="email" name="emailaddress" placeholder="Email Address" required>
+               </div>
             </div>
-            <div class="col-75">
-              <input type="text" id="lname" name="lastname" placeholder="Your last name" required>
+            <div class="row">
+               <div class="col-25">
+                  <label for="tour">Tour</label>
+               </div>
+               <div class="col-75">
+                  <select id="tour" name="tour">
+                     <option value="bar">Bar Tour</option>
+                     <option value="food">Food Tour</option>
+                     <option value="nature">Nature Tour</option>
+                  </select>
+               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="email">Email Address</label>
+            <div class="row">
+               <div class="col-25">
+                  <label for="lname">Booking Date</label>
+               </div>
             </div>
-            <div class="col-75">
-              <input type="text" id="email" name="emailaddress" placeholder="Email Address" required>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="tour">Tour</label>
-            </div>
-            <div class="col-75">
-              <select id="tour" name="tour">
-                <option value="bar">Bar Tour</option>
-                <option value="food">Food Tour</option>
-                <option value="nature">Nature Tour</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Booking Date</label>
-            </div>
-            <div class="col-75">
-              <input type="date" resize="none" id="lname" name="lastname" placeholder="Your last name" required>
-            </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="notes">Additional Notes</label>
-            </div>
-            <div class="col-75">
-              <textarea id="notes" name="notes" placeholder="What do we need to know before your visit?"  style="height:200px" required></textarea>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <input type="submit" value="Submit">
-          </div>
-        </form>
-      </div>
-    </section>
-    <br>
-    <footer>
-        <ul class="social-networks">
+               <div class="col-75">
+                  <input type="date" resize="none">
+               </div>
+               <div class="row">
+                  <div class="col-25">
+                     <label for="notes">Additional Notes</label>
+                  </div>
+                  <div class="col-75">
+                     <textarea id="notes" name="notes" placeholder="What do we need to know before your visit?"  style="height:200px" required></textarea>
+                  </div>
+               </div>
+               <br>
+               <div class="row">
+                  <input type="submit" value="Submit">
+               </div>
+         </form>
+         </div>
+      </section>
+      <br>
+      <footer>
+         <ul class="social-networks">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                 aria-label="Visit Our Facebook Page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+               <a href="https://facebook.com" target="_blank" rel="noopener"
+                  aria-label="Visit Our Facebook Page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                 aria-label="Visit Our Twitter Page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+               <a href="https://twitter.com" target="_blank" rel="noopener"
+                  aria-label="Visit Our Twitter Page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
             </li>
             <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener"
-                 aria-label="Visit Our Youtube Page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+               <a href="https://youtube.com" target="_blank" rel="noopener"
+                  aria-label="Visit Our Youtube Page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                 aria-label="Visit Our Instagram Page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+               <a href="https://instagram.com" target="_blank" rel="noopener"
+                  aria-label="Visit Our Instagram Page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
             </li>
-        </ul>
-    </footer>
-    <!--font awesome script-->
- <script src="https://kit.fontawesome.com/7236d9a59f.js" crossorigin="anonymous"></script>
-</body>
+         </ul>
+      </footer>
+      <!--font awesome script-->
+      <script src="https://kit.fontawesome.com/7236d9a59f.js" crossorigin="anonymous"></script>
+   </body>
 </html>
-
- 
