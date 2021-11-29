@@ -17,20 +17,23 @@ Aims to connect visitors with aunthetic genuine expriences when visiting Malaysi
 
 * This project began with generating the idea of the title of the website. Once the idea was conceived, I then proceded to create the wireframes to assist the development of the website. The links to the wireframes are provided below :
 
-  ![Responsive Screenshot Mockup](assets/css/readme-images/Header.png)
+![Responsive Screenshot Mockup](assets/css/readme-images/Homepage.png)
 
+![Responsive Screenshot Mockup](/assets/css/expe.png)
 
-
-
+![Responsive Screenshot Mockup](assets/css/readme-images/Bookings.png)
 
 
 # User Experience
 
 *First time User visitor goals
 
-*Returning Visitor goals
+Upon entering the site, users will be enchanted with the skyline of Kuala lumpur city.
+The fonts are easy to read. The navigation bar helps them go directly to booking if they wish to book. The images are pretty and the animations on the homepage and the experience page brightens the mood of the page.
 
-*Frequent User Goals
+*Returning Visitor goals
+For returning visitors, the page is simple and easy to navigate around. They should be able to find their way around the page once they have used it before.
+
 
 # Technologies Used
 
@@ -80,11 +83,12 @@ Acknowledgements
 - Stephen_5p_lead from Slack assisted me with codes for this project.
 - Declan_5P from Slack assisted me with codes for this project.
 
+
 # Project walkthrough
 
 Homepage
 
-My hompage begins with the logo. 
+My hompage begins with the logo. *
 I decided to choose white background because I wanted my header image to stand out. At the same time I believe that my selection of the font makes the start of the page attractive.
 
  ![Responsive Screenshot Mockup](assets/css/readme-images/Header.png)
@@ -163,5 +167,5 @@ A Submit has also been added to the form and the submit button links to a thank 
 
 ![Responsive Screenshot Mockup](assets/css/form.png)
 
-![Responsive Screenshot Mockup](assets/css/Thank-you.png)
+![Responsive Screenshot Mockup](assets/css/thanks.png)
 
