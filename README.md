@@ -2,6 +2,11 @@
 View the live project here: 
 [Explore Kuala Lumpur with a local](https://vannesha2021.github.io/Explore-Kuala-Lumpur-with-a-local/)
 
+
+
+![Responsive Screenshot Mockup](assets/css/responsive.JPG)
+
+
 # Introduction
 Aims to connect visitors with aunthetic genuine expriences when visiting Malaysia's bustling capital, Kuala Lumpur. Visitors can browse a selection of available tours and pick the suitaible for them to experiance.
 
@@ -9,9 +14,6 @@ Aims to connect visitors with aunthetic genuine expriences when visiting Malaysi
 * HTML
 * CSS
 
-# Contact details
-* Vannesha Andrew - vannesha90@gmail.com
-* Project Link : (https://vannesha2021.github.io/Explore-Kuala-Lumpur-with-a-local/)
 
 # Timeline
 
@@ -24,7 +26,7 @@ Aims to connect visitors with aunthetic genuine expriences when visiting Malaysi
 ![Responsive Screenshot Mockup](assets/css/readme-images/bookings.png)
 
 
-# User Experience
+# User Experience (UX)
 
 *First time User visitor goals
 
@@ -34,6 +36,24 @@ The fonts are easy to read. The navigation bar helps them go directly to booking
 *Returning Visitor goals
 For returning visitors, the page is simple and easy to navigate around. They should be able to find their way around the page once they have used it before.
 
+# Design
+
+* Colour Scheme
+
+The colour scheme was selected to offer potemtion users ease of reading and to navigation and to avoid a confusing cluttered look.
+
+* Typography
+
+The permenant marker font was chosen for the header to give the page a fun look meanwhile the content font was Gudea which pictured a more professional look to the page.
+
+* Imagery
+
+The images which were chosen for the project was to demonstrate a vibrant looking city. The pictures were chosen because of their expresive outlook.
+
+# Features
+
+* Responsive to all device sizes.
+* Engaging elements
 
 # Technologies Used
 
@@ -60,6 +80,13 @@ Lucidchart
 Slack Channel
 - Slack was used to communicate with other coders, mentors and tutors to resolve issues which I was facing with the project.
 
+# Testings
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+[W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvannesha2021.github.io%2FExplore-Kuala-Lumpur-with-a-local%2F)
+
+
 
 # Issues Faced during the project
 
@@ -81,6 +108,7 @@ Overall
 
 The biggest challenge I faced was getting my page to be responsive. It all came together in the end of the project.
 
+
 # Credits
 
 Code
@@ -99,6 +127,9 @@ Content
 Media
 - Most images were taken from Pexels, Pixabay and the my personal gallery.
 
+WebKit
+- This site was used to gain gradient color for the site.
+
 Acknowledgements
 - DaveHorrocks_5P from Slack assisted me with codes for this project.
 - Stephen_5p_lead from Slack assisted me with codes for this project.
@@ -112,7 +143,7 @@ Homepage
 My hompage begins with the logo. *
 I decided to choose white background because I wanted my header image to stand out. At the same time I believe that my selection of the font makes the start of the page attractive.
 
- ![Responsive Screenshot Mockup](assets/css/readme-images/Header.png)
+ ![Responsive Screenshot Mockup](assets/css/readme-images/header.png)
 
 
 Navigation Bar
@@ -190,7 +221,12 @@ A Submit has also been added to the form and the submit button links to a thank 
 
 ![Responsive Screenshot Mockup](assets/css/thanks.png)
 
+
 # This project has been proven to be responsive
 
 
 ![Responsive Screenshot Mockup](assets/css/responsive.JPG)
+
+
+# Contact details
+* Vannesha Andrew - vannesha90@gmail.com
