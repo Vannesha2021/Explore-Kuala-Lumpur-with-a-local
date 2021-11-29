@@ -86,6 +86,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 [W3C Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvannesha2021.github.io%2FExplore-Kuala-Lumpur-with-a-local%2F)
 
+[W3C Markup Validator (CSS)](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fvannesha2021.github.io%2FExplore-Kuala-Lumpur-with-a-local%2Fassets%2Fcss%2Fstyle.css)
 
 
 # Issues Faced during the project
