@@ -60,6 +60,27 @@ Lucidchart
 Slack Channel
 - Slack was used to communicate with other coders, mentors and tutors to resolve issues which I was facing with the project.
 
+
+# Issues Faced during the project
+
+- Allignment of Images
+
+I faced issues with the alignment of the images in the homepage section. Besides that, my indent was not accurate. However after support from Slack, I managed to fix the issues.
+
+
+- Experience Section
+
+I lernt how to display images in a certain style, thanks to CodePen!
+The margins and movements of the pictures was tough to navigate but once it was designed in CSS, the tour sections came along perfectly.
+
+- Booking page
+
+I faced issue getting the box size for the "Booking Date"similar to the others. After asking for assistance in Slack, it was amended to the correct size.
+
+Overall
+
+The biggest challenge I faced was getting my page to be responsive. It all came together in the end of the project.
+
 # Credits
 
 Code
@@ -169,3 +190,7 @@ A Submit has also been added to the form and the submit button links to a thank 
 
 ![Responsive Screenshot Mockup](assets/css/thanks.png)
 
+# This project has been proven to be responsive
+
+
+![Responsive Screenshot Mockup](assets/css/responsive.JPG)
