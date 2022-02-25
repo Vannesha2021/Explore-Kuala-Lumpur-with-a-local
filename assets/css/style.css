@@ -268,7 +268,7 @@ pre {
     background: #ff5f6d;
     background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
     background: linear-gradient(to right, #ff5f6d, #ffc371);
-    height: -1%;
+    height: 1%;
     width: 100%;
   }
 
@@ -507,15 +507,4 @@ input[type=submit] {
       font-size: 120%;
       }
     }
-  
-
-
-
-
-
-
-
-
-
-
-
+  }
