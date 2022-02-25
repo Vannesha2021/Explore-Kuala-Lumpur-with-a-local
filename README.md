@@ -138,6 +138,12 @@ Acknowledgements
 - Declan_5P from Slack assisted me with codes for this project.
 
 
+# Deployment
+The project has been developed using Gitpod and GitHub. The project was regularly commited to GitHub during the initial development phase.
+The site was deployed to GitHub pages.
+
+The steps to deploy are as follows: In the GitHub repository, navigate to the Settings tab. On the left menu list, select Pages. In the source section drop-down menu, select the Main Branch and click Save. Upon successful save, the Github Pages section will display a message to indicate that the site is ready to be published at https://vannesha2021.github.io/Explore-Kuala-Lumpur-with-a-local/.
+
 # Project walkthrough
 
 Homepage
